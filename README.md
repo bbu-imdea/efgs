@@ -1,9 +1,13 @@
 Source code of EFGs, a complete an accurate implementation of Ertl's functional group (FG) detection algorithm.
 
-For a RDKit molecule, it provides four outputs: ) a PNG binary string with an image of the molecule with color-highlighted
-functional groups; b) a list of sets of atom indices (idx), each set corresponding to a
-functional group; c) a list of pseudo-SMILES canonicalized strings for the full functional
-groups; d) a list of RDKit labeled mol objects, one for each full functional group 
+For a RDKit molecule, it provides four outputs: 
+a) a PNG binary string with an image of the molecule with color-highlighted
+functional groups; 
+b) a list of sets of atom indices (idx), each set corresponding to a
+functional group; 
+c) a list of pseudo-SMILES canonicalized strings for the full functional
+groups; 
+d) a list of RDKit labeled mol objects, one for each full functional group 
 
 efgs.py: code of get_dec_fgs function and additional auxiliary functions
 
